@@ -9,7 +9,7 @@ WHITB='\033[01;90m'
 WHITEC='\033[01;91m'
 CNIL='\033[0m'
 Version=`lsb_release -rs | cut -f1 -d"."`
-cd YEMEN ; rm -rif Script.lua;rm -rif Run.lua;rm -rif functions.lua;wget https://raw.githubusercontent.com/kiindi/nizk/root/YEMEN/Run.lua ;wget https://raw.githubusercontent.com/kiindi/nizk/root/YEMEN/functions.lua;wget https://raw.githubusercontent.com/kiindi/nizk/root/YEMEN/Script.lua;cd ..
+cd YEMEN ; rm -rif Script.lua;rm -rif Run.lua;rm -rif functions.lua;wget https://raw.githubusercontent.com/Akramsalah1/nizk/root/YEMEN/Run.lua ;wget https://raw.githubusercontent.com/Akramsalah1/nizk/root/YEMEN/functions.lua;wget https://raw.githubusercontent.com/Akramsalah1/nizk/root/YEMEN/Script.lua;cd ..
 rm -rf libs;mkdir libs;cd libs;wget https://raw.githubusercontent.com/r00t94/k/main/lib/json.lua ;wget https://raw.githubusercontent.com/r00t94/k/main/lib/url.lua;wget https://raw.githubusercontent.com/r00t94/k/main/lib/redis.lua;cd ..
 clear
 
