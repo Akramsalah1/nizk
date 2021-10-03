@@ -54,14 +54,14 @@ fi
 echo -e "${WHITB}\n¦ installing source ... \n\n\n\n${CNIL}"
 sudo apt-get update -y
 sudo apt-get upgrade -y
-cd YEMEN ; rm -rif Script.lua;rm -rif Run.lua;rm -rif functions.lua;wget https://raw.githubusercontent.com/kiindi/nizk/root/YEMEN/Run.lua ;wget https://raw.githubusercontent.com/kiindi/nizk/root/YEMEN/functions.lua;wget https://raw.githubusercontent.com/kiindi/nizk/root/YEMEN/Script.lua;cd ..
+cd YEMEN ; rm -rif Script.lua;rm -rif Run.lua;rm -rif functions.lua;wget https://raw.githubusercontent.com/Akramsalah1/nizk/root/YEMEN/Run.lua ;wget https://raw.githubusercontent.com/Akramsalah1/nizk/root/YEMEN/functions.lua;wget https://raw.githubusercontent.com/Akramsalah1/nizk/root/YEMEN/Script.lua;cd ..
 rm -rf libs;mkdir libs;cd libs;wget https://raw.githubusercontent.com/r00t94/k/main/lib/json.lua ;wget https://raw.githubusercontent.com/r00t94/k/main/lib/url.lua;wget https://raw.githubusercontent.com/r00t94/k/main/lib/redis.lua;cd ..
 clear
 echo -e "\x1B[01;90m\n¦ software-properties-common installing ... \n\x1B[0m"
 sudo apt-get install software-properties-common -y
 echo -e "\x1B[01;90m\n¦ ubuntu-toolchain installing ...\n \x1B[0m"
 sudo add-apt-repository ppa:ubuntu-toolchain-r/test -y
-# BY _ [ >> @kiindi ]
+# BY _ [ >> @Akramsalah1 ]
 echo -e "\x1B[01;90m\n¦ install Modiles Pkgs ... \n\n\x1B[0m"
 
 sudo apt-get install libreadline-dev -y libconfig-dev -y libssl-dev -y lua5.2 -y liblua5.2-dev -y lua-socket -y lua-sec -y lua-expat -y libevent-dev -y make unzip git redis-server autoconf g++ -y libjansson-dev -y libpython-dev -y expat libexpat1-dev -y curl -y htop -y wget -y
